@@ -14,7 +14,7 @@ namespace Orlys.Cmdlet
        
     public static class Cmdlet<T> where T : new()
     {
-        public static readonly Cmdlet Cache = Cmdlet.Create<T>();
+        public static Cmdlet Singleton { get; } = Cmdlet.Create<T>();
     }
 
     public sealed class Cmdlet : IDisposable
