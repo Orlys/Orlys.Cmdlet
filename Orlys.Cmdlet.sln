@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29215.179
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Orlys.Cmdlet", "Orlys.Cmdlet\Orlys.Cmdlet.csproj", "{10357E57-EA06-45D0-9763-CD498CDC00E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Orlys.Cmdlet.Dev", "Orlys.Cmdlet.Dev\Orlys.Cmdlet.Dev.csproj", "{0E7A625E-1B13-4B86-9E02-0799E9709F3F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{10357E57-EA06-45D0-9763-CD498CDC00E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10357E57-EA06-45D0-9763-CD498CDC00E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10357E57-EA06-45D0-9763-CD498CDC00E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10357E57-EA06-45D0-9763-CD498CDC00E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E7A625E-1B13-4B86-9E02-0799E9709F3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E7A625E-1B13-4B86-9E02-0799E9709F3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E7A625E-1B13-4B86-9E02-0799E9709F3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E7A625E-1B13-4B86-9E02-0799E9709F3F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B9612EB8-03F3-4E44-9570-92BB63EAE587}
+	EndGlobalSection
+EndGlobal
